@@ -11,7 +11,8 @@ header{
     text-align:center;
     width:100%;
     background-color:#25B3B4;
-    border:4px solid #1f9696;
+    border-top:4px solid #1f9696;
+    border-bottom: 4px solid #1f9696;
     
 }
 ul {
@@ -46,8 +47,11 @@ h2{
 /* contianre */
 .container {
     margin:auto;
-    width:800px;
+    width:1000px;
     font-family:'Open Sans' , sans-serif;
+    padding-top: 100px;
+    overflow:hidden;
+    
 }
 h1{
     text-align:center;
@@ -57,20 +61,21 @@ h1{
     
 }
 
+.dishes {
+    float:left;
+}
 .alldishes{
     overflow:hidden;
     width:600px;
-}
-.dishes{
     background-color:#e0fffc;
 }
-.dish1{
+
+.dish1,.dish2{
     float:left;
-    width:50%;
-}
-.dish2{
-    float:left;
-    width:50%;
+    width:40%;
+    padding-left: 40px;
+    margin-bottom: 60px;
+    /* padding:0px 5px; */
 }
 
 .dish1-button{
@@ -78,7 +83,7 @@ h1{
     
     height:40px;
     width:100px;
-    margin-left:200px;
+    margin-left:140px;
     color:white;
     background-color: #1f9696;
     border:0;
@@ -86,7 +91,7 @@ h1{
 
 .dishh1{
 overflow:hidden;
-width:67%;
+width:100%;
 text-align: center;
 }
 .recipe1 {
@@ -94,6 +99,7 @@ text-align: center;
      float:left; 
      height:100px;
      width:45%;
+     margin-right:5%;
     
 }
 .recipe1-para1{
@@ -103,5 +109,54 @@ text-align: center;
 .recipe1-para2,.recipe1-para3{
     /* margin:10px; */
     margin:0;
-    width:67%
+    width:100%
+}
+
+.description{
+    /* position: absolute; */
+    float:left;
+}
+/*dish-description*/
+.dish-description{
+    /* left:600px; */
+    position:relative;
+    width:300px;
+    padding:20px;
+    border:4px solid #0b3838;
+    margin-left:20px;
+    color:white;
+    background-color:#0d969b;
+}
+.fish {
+    position:absolute;
+    top:-60px;
+    right:0;
+    transition-property: all;
+    
+}
+.fish :hover{
+    transform: rotate(45deg);
+    transition-duration:3s;
+    
+}
+
+/*footer */
+footer{
+    font-family:'Open Sans' , sans-serif ;
+}
+.academy {
+    margin:10px 0px;
+    text-align: center;
+}
+
+.imgacademy{
+    width:50px
+}
+
+.lasttext1 ,.lasttext2{
+    text-align:center
+}
+
+u {
+    color:#a366ff;
 }
