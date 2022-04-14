@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body{
+    background-image: url("img/fond.png");
+    padding:0;
+    margin:0;
+}
+header{
+    margin-top:60px;
+    font-family: 'Open Sans', sans-serif;
+    text-align:center;
+    width:100%;
+    background-color:#25B3B4;
+    border:4px solid #1f9696;
+    
+}
+ul {
+    padding-left:0;
+}
+li {
+    display: inline-block;
+    padding:20px;
+}
+a {
+    text-decoration:none;
+    color:white;
+}
+
+h2{
+    font-family: 'Open Sans', sans-serif;
+    text-align:center;
+    margin-top:40px;
+}
+.description1,.description2,.description3{
+    font-size:1.2em;
+    text-align:center;
+}
+.para1{
+    margin:auto;
+    width:600px;
+    font-family: 'Open Sans' , sans-serif;
+}
+
+
+
+/* contianre */
+.container {
+    margin:auto;
+    width:800px;
+    font-family:'Open Sans' , sans-serif;
+}
+h1{
+    text-align:center;
+}
+.leT,.fa-droplet-color {
+    color:rgb(1, 141, 141);
+    
+}
+
+.alldishes{
+    overflow:hidden;
+    width:600px;
+}
+.dishes{
+    background-color:#e0fffc;
+}
+.dish1{
+    float:left;
+    width:50%;
+}
+.dish2{
+    float:left;
+    width:50%;
+}
+
+.dish1-button{
+    
+    
+    height:40px;
+    width:100px;
+    margin-left:200px;
+    color:white;
+    background-color: #1f9696;
+    border:0;
+}
+
+.dishh1{
+overflow:hidden;
+width:67%;
+text-align: center;
+}
+.recipe1 {
+    border-radius:50%;
+     float:left; 
+     height:100px;
+     width:45%;
+    
+}
+.recipe1-para1{
+    text-align:start;
+}
+
+.recipe1-para2,.recipe1-para3{
+    /* margin:10px; */
+    margin:0;
+    width:67%
+}
