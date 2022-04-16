@@ -15,6 +15,9 @@ header{
     border-bottom: 4px solid #1f9696;
     
 }
+.welcome{
+    font-size: 2.5em;
+}
 ul {
     padding-left:0;
 }
@@ -55,6 +58,7 @@ h2{
 }
 h1{
     text-align:center;
+    font-size:3.5em;
 }
 .leT,.fa-droplet-color {
     color:rgb(1, 141, 141);
@@ -130,7 +134,7 @@ text-align: center;
 .fish {
     position:absolute;
     top:-60px;
-    right:0;
+    right: -37px;
     transition-property: all;
     
 }
