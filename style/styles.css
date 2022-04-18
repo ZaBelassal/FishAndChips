@@ -158,7 +158,8 @@ footer{
 }
 
 .lasttext1 ,.lasttext2{
-    text-align:center
+    text-align:center;
+    font-size: 0.8em;
 }
 
 u {
